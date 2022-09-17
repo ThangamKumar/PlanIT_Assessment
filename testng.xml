@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Assessment Test Suite">
+
+<listeners>
+		<listener
+			class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="Assessment Tests">
+		<classes>
+			<class name="testCase.TC_001_Contac_Us"/>
+			<class name="testCase.TC_002_Contact_Us"/>
+			<class name="testCase.TC_003_Addingproductscart"/>
+		</classes>
+	
+	</test>
+
+</suite>
