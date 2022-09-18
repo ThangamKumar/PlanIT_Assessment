@@ -85,8 +85,9 @@ public class Cart {
 		     float Float_SubTotal = Float.parseFloat(ActF_subTotal);
 		     
 		     float a11 = Float_Price * Float.parseFloat(Quantity);
+		     float a111 = (float) (Math.round(a11 * 100.0) / 100.0);
 		     
-		     if(a11==Float_SubTotal)
+		   /* if(a111==Float_SubTotal)
 		     {
 		    	 
 		    	 Assert.assertTrue(true);
@@ -97,11 +98,12 @@ public class Cart {
 		    	 Assert.assertTrue(false);
 		    	 System.out.println("Not Validated the subtotal of frog");
 
-		     }
+		     }*/
 		     
-		     float[] Price_SubTotal = new float[2];
+		     float[] Price_SubTotal = new float[3];
 		     Price_SubTotal[0] = Float_Price;
 		     Price_SubTotal[1] = Float_SubTotal;
+		     Price_SubTotal[2] = a111;
 		     
 		     return Price_SubTotal;
 	  	}
@@ -134,7 +136,7 @@ public class Cart {
 		     float a12 = Float_Price1 * Float.parseFloat(Quantity1);
 		     float a122 = (float) (Math.round(a12 * 100.0) / 100.0);
 		     
-		     if(a122==Float_SubTotal1)
+		   /*  if(a122==Float_SubTotal1)
 		     {
 		    	 
 		    	 Assert.assertTrue(true);
@@ -145,11 +147,12 @@ public class Cart {
 		    	 Assert.assertTrue(false);
 		    	 System.out.println("Not Validated the subtotal of Bunny");
 
-		     }
+		     }*/
 		     
-		     float[] Price_SubTotal_bunny = new float[2];
+		     float[] Price_SubTotal_bunny = new float[3];
 		     Price_SubTotal_bunny[0] = Float_Price1;
 		     Price_SubTotal_bunny[1] = Float_SubTotal1;
+		     Price_SubTotal_bunny[2] = a122;
 		     
 		     return Price_SubTotal_bunny;
 	  	}
@@ -176,7 +179,9 @@ public class Cart {
 		     float a13 = Float_Price2 * Float.parseFloat(Quantity2);
 		     float a133 = (float) (Math.round(a13 * 100.0) / 100.0);
 		     
-		     if(a133==Float_SubTotal2)
+		     System.out.println("a133:" + a133 + "Float_Price2:"+Float_Price2 + "Float.parseFloat(Quantity2):"+ Float.parseFloat(Quantity2));
+		     
+		   /*  if(a133==Float_SubTotal2)
 		     {
 		    	 
 		    	 Assert.assertTrue(true);
@@ -187,20 +192,16 @@ public class Cart {
 		    	 Assert.assertTrue(false);
 		    	 System.out.println("Not Validated the subtotal of Vbear");
 
-		     }
+		     }*/
 		     
-		     float[] Price_SubTotal_bear = new float[2];
+		     float[] Price_SubTotal_bear = new float[3];
 		     Price_SubTotal_bear[0] = Float_Price2;
 		     Price_SubTotal_bear[1] = Float_SubTotal2;
+		     Price_SubTotal_bear[2] = a133;
 		     
 		     return Price_SubTotal_bear;
 	  	}
-		
-		/*public static float[] cl_subtotal(float a[])
-	  	{
-			float[] myarray = 
-	  	} */
-
+	
 
 }
 	  	

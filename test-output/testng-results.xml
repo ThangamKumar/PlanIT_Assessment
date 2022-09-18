@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10259" started-at="2022-09-17T10:43:41 IST" finished-at="2022-09-17T10:43:51 IST">
+  <suite name="Assessment Test Suite" duration-ms="123603" started-at="2022-09-18T16:00:19 IST" finished-at="2022-09-18T16:02:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10259" started-at="2022-09-17T10:43:41 IST" finished-at="2022-09-17T10:43:51 IST">
+    <test name="Assessment Tests" duration-ms="123603" started-at="2022-09-18T16:00:19 IST" finished-at="2022-09-18T16:02:23 IST">
       <class name="testCase.TC_003_Addingproductscart">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.TC_003_Addingproductscart@401e7803]" name="setup" is-config="true" duration-ms="4546" started-at="2022-09-17T10:43:41 IST" finished-at="2022-09-17T10:43:45 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.TC_003_Addingproductscart@10dba097]" name="setup" is-config="true" duration-ms="1462" started-at="2022-09-18T16:01:43 IST" finished-at="2022-09-18T16:01:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_add_products()[pri:0, instance:testCase.TC_003_Addingproductscart@401e7803]" name="test_add_products" duration-ms="5539" started-at="2022-09-17T10:43:46 IST" finished-at="2022-09-17T10:43:51 IST">
+        <test-method status="PASS" signature="test_add_products()[pri:0, instance:testCase.TC_003_Addingproductscart@10dba097]" name="test_add_products" duration-ms="38678" started-at="2022-09-18T16:01:44 IST" finished-at="2022-09-18T16:02:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_add_products -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCase.TC_003_Addingproductscart@401e7803]" name="tearDown" is-config="true" duration-ms="125" started-at="2022-09-17T10:43:51 IST" finished-at="2022-09-17T10:43:51 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCase.TC_003_Addingproductscart@10dba097]" name="tearDown" is-config="true" duration-ms="174" started-at="2022-09-18T16:02:23 IST" finished-at="2022-09-18T16:02:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_003_Addingproductscart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCase.TC_002_Contact_Us">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.TC_002_Contact_Us@401e7803]" name="setup" is-config="true" duration-ms="1483" started-at="2022-09-18T16:01:08 IST" finished-at="2022-09-18T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_contact_us()[pri:0, instance:testCase.TC_002_Contact_Us@401e7803]" name="test_contact_us" duration-ms="33056" started-at="2022-09-18T16:01:09 IST" finished-at="2022-09-18T16:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_contact_us -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCase.TC_002_Contact_Us@401e7803]" name="tearDown" is-config="true" duration-ms="109" started-at="2022-09-18T16:01:42 IST" finished-at="2022-09-18T16:01:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_002_Contact_Us -->
+      <class name="testCase.TC_001_Contac_Us">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.TC_001_Contac_Us@4524411f]" name="setup" is-config="true" duration-ms="4453" started-at="2022-09-18T16:00:20 IST" finished-at="2022-09-18T16:00:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_invaild_contact()[pri:0, instance:testCase.TC_001_Contac_Us@4524411f]" name="test_invaild_contact" duration-ms="43638" started-at="2022-09-18T16:00:24 IST" finished-at="2022-09-18T16:01:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invaild_contact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCase.TC_001_Contac_Us@4524411f]" name="tearDown" is-config="true" duration-ms="122" started-at="2022-09-18T16:01:08 IST" finished-at="2022-09-18T16:01:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_001_Contac_Us -->
+    </test> <!-- Assessment Tests -->
+  </suite> <!-- Assessment Test Suite -->
 </testng-results>

@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="5" name="Assessment Tests(failed)">
     <classes>
-      <class name="testCase.TC_001_Contac_Us">
-        <methods>
-          <include name="test_invaild_contact"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCase.TC_001_Contac_Us -->
       <class name="testCase.TC_003_Addingproductscart">
         <methods>
           <include name="tearDown"/>

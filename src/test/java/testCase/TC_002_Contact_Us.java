@@ -1,5 +1,8 @@
 package testCase;
 
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -10,7 +13,7 @@ public class TC_002_Contact_Us extends Baseclass {
 	
 	
 	@Test
-	public void test_contact_us() throws InterruptedException
+	public void test_contact_us() throws InterruptedException, IOException
 	{
 		
 		try
@@ -37,7 +40,9 @@ public class TC_002_Contact_Us extends Baseclass {
 		logger.info("Clicked on submit button");
 
 		
-		Thread.sleep(5000);
+	//	Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
 		
         String confmsg=ct.getConfirmationMsg();
 		
@@ -57,6 +62,7 @@ public class TC_002_Contact_Us extends Baseclass {
 		catch(Exception e)
 		{
 			logger.fatal("Failed ");
+			captureScreen(driver, "test_contact_us"); //Capturing screenshot
 			Assert.fail();
 		}
 		
