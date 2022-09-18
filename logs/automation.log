@@ -127,3 +127,103 @@
 16:02:23.179 [main] INFO  testCase.TC_003_Addingproductscart - success - subtotal for each product is correct
 16:02:23.180 [main] INFO  testCase.TC_003_Addingproductscart - Verify the price for each product from Cart Vs Shop
 16:02:23.180 [main] INFO  testCase.TC_003_Addingproductscart - success -Per price of the products from the cart is matching with the price from shop
+17:59:52.180 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+17:59:52.197 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+17:59:52.197 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+17:59:52.205 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4263b080
+17:59:52.238 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+17:59:52.240 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+17:59:52.241 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+17:59:52.243 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+17:59:52.244 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+17:59:52.245 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+17:59:52.246 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+17:59:52.247 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+17:59:52.247 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+17:59:52.247 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+17:59:52.247 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+17:59:52.248 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\PyraUIUX\AppData\Local\Temp (java.io.tmpdir)
+17:59:52.248 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:59:52.249 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1864368128 bytes
+17:59:52.249 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+17:59:52.250 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+17:59:52.251 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+17:59:52.263 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+17:59:52.305 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+17:59:52.306 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+17:59:52.335 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+17:59:52.335 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+17:59:52.382 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+17:59:52.403 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+17:59:52.403 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+17:59:52.427 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d332969
+17:59:52.429 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@c0b41d6
+17:59:52.430 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4837595f
+17:59:52.431 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2bffa76d
+17:59:52.432 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3b718392
+17:59:52.433 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d2260db
+17:59:52.434 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1f2d2181
+17:59:52.435 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49bf29c6
+17:59:52.476 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+17:59:52.476 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+17:59:52.477 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+17:59:52.494 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+17:59:52.494 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+17:59:52.494 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+17:59:53.613 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 22324 (auto-detected)
+17:59:53.616 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+17:59:53.616 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+17:59:53.893 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+17:59:53.894 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+17:59:54.180 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f0:d5:bf:ff:fe:0b:20:c5 (auto-detected)
+17:59:54.269 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+17:59:54.269 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+17:59:54.269 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20d900a3
+17:59:54.310 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+17:59:54.310 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+17:59:54.310 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+17:59:54.310 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+17:59:54.310 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+17:59:55.655 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6c3027a1509c8f16
+17:59:55.759 [main] INFO  testCase.TC_001_Contac_Us - TC_001_Started excuting the testcase 1
+18:00:00.608 [main] INFO  testCase.TC_001_Contac_Us - Openingup the contact us screen
+18:00:00.923 [main] INFO  testCase.TC_001_Contac_Us - Clicked on submit button
+18:00:00.967 [main] INFO  testCase.TC_001_Contac_Us - Forename error meesage is validated
+18:00:00.999 [main] INFO  testCase.TC_001_Contac_Us - Email error message is validated
+18:00:01.034 [main] INFO  testCase.TC_001_Contac_Us - Message error message is validated
+18:00:01.034 [main] INFO  testCase.TC_001_Contac_Us - Populating the data
+18:00:01.116 [main] INFO  testCase.TC_001_Contac_Us - Provided fore name
+18:00:01.223 [main] INFO  testCase.TC_001_Contac_Us - Provided email
+18:00:01.574 [main] INFO  testCase.TC_001_Contac_Us - Provided Message
+18:00:01.574 [main] INFO  testCase.TC_001_Contac_Us - Data has been populated 
+18:00:11.765 [main] INFO  testCase.TC_001_Contac_Us - Validated that the error messages are gone
+18:00:13.413 [main] INFO  testCase.TC_002_Contact_Us - TC_002_Openingup the contact us screen
+18:00:24.427 [main] INFO  testCase.TC_002_Contact_Us - Provided fore name
+18:00:24.536 [main] INFO  testCase.TC_002_Contact_Us - Provided email
+18:00:24.829 [main] INFO  testCase.TC_002_Contact_Us - Provided Message
+18:00:24.930 [main] INFO  testCase.TC_002_Contact_Us - Clicked on submit button
+18:00:27.611 [main] INFO  testCase.TC_002_Contact_Us - Feedback sent
+18:00:29.400 [main] INFO  testCase.TC_003_Addingproductscart - TC_003_Adding product to the cart testcase strated excuting
+18:00:36.056 [main] INFO  testCase.TC_003_Addingproductscart - Shop link is clicked
+18:00:36.056 [main] INFO  testCase.TC_003_Addingproductscart - Getting the price for each products
+18:00:37.621 [main] INFO  testCase.TC_003_Addingproductscart - 2 frogs has been added to the cart
+18:00:37.850 [main] INFO  testCase.TC_003_Addingproductscart - 5 bunny has been added to the cart
+18:00:37.988 [main] INFO  testCase.TC_003_Addingproductscart - 3 vbear has been added to the cart
+18:00:37.988 [main] INFO  testCase.TC_003_Addingproductscart - All the products has been added into the cart 
+18:00:38.053 [main] INFO  testCase.TC_003_Addingproductscart - Cart link is clicked
+18:00:43.343 [main] INFO  testCase.TC_003_Addingproductscart - Verifying the subtotal for all product Vs total amount in cart
+18:00:43.383 [main] INFO  testCase.TC_003_Addingproductscart - Getting the total from the cart 
+18:00:43.383 [main] INFO  testCase.TC_003_Addingproductscart - Success- Sum of sub total all products from cart is matching total amount
+18:00:43.383 [main] INFO  testCase.TC_003_Addingproductscart - Verify the subtotal for each product is correct 
+18:00:43.384 [main] INFO  testCase.TC_003_Addingproductscart - success - subtotal for each product is correct
+18:00:43.384 [main] INFO  testCase.TC_003_Addingproductscart - Verify the price for each product from Cart Vs Shop
+18:00:43.384 [main] INFO  testCase.TC_003_Addingproductscart - success -Per price of the products from the cart is matching with the price from shop

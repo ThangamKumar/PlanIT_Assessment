@@ -152,9 +152,9 @@ public class TC_003_Addingproductscart extends Baseclass {
 		int rem_per_bunny =Float.compare(Float_total_bunny_from_Cart[0], Float_per_bunny_From_shop);
 		int rem_per_bear =Float.compare(Float_total_bear_from_Cart[0], Float_per_bear_From_shop);
 		    
-		System.out.println("Float_total_frog_from_Cart[0]:" + Float_total_frog_from_Cart[0] + "Float_per_frog:"+Float_per_frog_From_shop);
-	    System.out.println("Float_total_bunny[0]:" + Float_total_bunny_from_Cart[0] + "Float_per_bunny:"+Float_per_bunny_From_shop);
-		System.out.println("Float_total_bear[0]:" + Float_total_bear_from_Cart[0] + "Float_per_bear:"+Float_per_bear_From_shop);
+	//	System.out.println("Float_total_frog_from_Cart[0]:" + Float_total_frog_from_Cart[0] + "Float_per_frog:"+Float_per_frog_From_shop);
+	  //  System.out.println("Float_total_bunny[0]:" + Float_total_bunny_from_Cart[0] + "Float_per_bunny:"+Float_per_bunny_From_shop);
+		//System.out.println("Float_total_bear[0]:" + Float_total_bear_from_Cart[0] + "Float_per_bear:"+Float_per_bear_From_shop);
 		    
 		System.out.println("rem_per_frog:" + rem_per_frog + "rem_per_bunny:"+rem_per_bunny+"rem_per_bear:"+rem_per_bear);
 
